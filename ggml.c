@@ -10549,7 +10549,7 @@ int ggml_cpu_has_avx(void) {
 #if defined(__AVX__)
     return 1;
 #else
-    return 0;
+    return 1;
 #endif
 }
 
@@ -10557,7 +10557,7 @@ int ggml_cpu_has_avx2(void) {
 #if defined(__AVX2__)
     return 1;
 #else
-    return 0;
+    return 1;
 #endif
 }
 
